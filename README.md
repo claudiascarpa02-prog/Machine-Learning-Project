@@ -34,12 +34,12 @@ Two approaches are compared:
 ---
 
 ## Repository Structure
-'''
+
 ├── cnn_training.py          # Training pipeline for the CNN model  
 ├── roberta_training.py      # Fine-tuning procedure for RoBERTa  
 ├── evaluate_models.py       # Loads best saved models and evaluates them  
 └── report.pdf               # Final project report  
-'''
+
 
 ---
 
