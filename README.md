@@ -22,9 +22,11 @@ Each story can have multiple labels. The project addresses **class imbalance** a
 ---
 
 ## Training & Evaluation
-- Multi-label loss functions  
-- Standard metrics: **F1-score**, **accuracy**  
-- Custom thresholds for weaker labels  
+- Multi-label loss functions
+- Grid search for the parameters of the CNN
+- Standard metrics: **F1-score**, **accuracy**  , **Precision-Recall curve** , **Confusion matrices**
+- Custom thresholds for weaker labels
+- Positive class weights to overcome class imbalance
 
 ## Results
 
@@ -59,13 +61,6 @@ Due to their size, trained model checkpoints are not included in the repository.
 They are publicly available at [this link](https://drive.google.com/drive/folders/1Y8tpu24vhWwJXxj8jdYRPNnrsaI-aq_f?usp=drive_link)
 
 Download the files and place them inside a local `saved_models/` directory before running the evaluation script.
-
----
-
-## Usage
-
-### 1. Clone & install dependencies
-```bash
 git clone <repository-url>
 cd Multi-label-Classification-of-Children-Stories
 pip install -r requirements.txt
