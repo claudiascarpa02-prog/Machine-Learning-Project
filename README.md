@@ -35,7 +35,6 @@ Two approaches are compared:
 
 ## Repository Structure
 
-
 ├── cnn_training.py          # Training pipeline for the CNN model  
 ├── roberta_training.py      # Fine-tuning procedure for RoBERTa  
 ├── evaluate_models.py       # Loads best saved models and evaluates them  
@@ -43,6 +42,14 @@ Two approaches are compared:
 
 
 ---
+
+## Repository Structure
+
+- **cnn_training.py**: training pipeline for the CNN model  
+- **roberta_training.py**: fine-tuning procedure for RoBERTa  
+- **evaluate_models.py**: loads trained models and evaluates them  
+- **report.pdf**: final project report
+
 
 ## Trained Models
 
