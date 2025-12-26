@@ -19,9 +19,6 @@ Each story can have multiple labels. The project addresses **class imbalance** a
 1. **CNN**: Custom architecture trained from scratch  
 2. **RoBERTa-base**: Pre-trained transformer fine-tuned on the dataset  
 
-### Architecture Diagram of the CNN
-IMMAGINE
-
 ---
 
 ## Training & Evaluation
