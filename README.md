@@ -1,6 +1,5 @@
 # Multi-label Classification of Children Stories
 [![Python](https://img.shields.io/badge/python-3.10-blue)](https://www.python.org/) 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 Classifying children stories into **6 categories** using **CNNs** and **transformers (RoBERTa)**.  
 Each story can have multiple labels. The project addresses **class imbalance** and **threshold optimization**.
